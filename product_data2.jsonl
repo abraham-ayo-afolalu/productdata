@@ -1,0 +1,18 @@
+{
+    "sku": "test-product-001",
+    "priceBookName": "defaultPriceBook",
+    "prices": [
+      {
+        "currency": "USD",
+        "amount": 15000,
+        "includeTax": false,
+        "tiers": [
+          {
+            "name": "Bulk Discount",
+            "minimumQuantity": 10,
+            "amount": 14000
+          }
+        ]
+      }
+    ]
+  }
